@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cena>
+    <grupo>
+        <cor R=1 G=0.3 B=0.3 />
+        <orbita raioX=35 raioZ=34.25 nControl=16 />
+        
+        <grupo>
+            <rotacao tempo=5 eixoY=1 />
+            <translacao tempo=20 >
+                <ponto X=35.000000 Z=0.000000 />
+                <ponto X=32.335785 Z=13.106908 />
+                <ponto X=24.748737 Z=24.218409 />
+                <ponto X=13.393920 Z=31.642874 />
+                <ponto X=-0.000002 Z=34.250000 />
+                <ponto X=-13.393923 Z=31.642874 />
+                <ponto X=-24.748737 Z=24.218407 />
+                <ponto X=-32.335785 Z=13.106902 />
+                <ponto X=-35.000000 Z=-0.000003 />
+                <ponto X=-32.335785 Z=-13.106908 />
+                <ponto X=-24.748734 Z=-24.218410 />
+                <ponto X=-13.393909 Z=-31.642878 />
+                <ponto X=0.000000 Z=-34.250000 />
+                <ponto X=13.393926 Z=-31.642872 />
+                <ponto X=24.748745 Z=-24.218399 />
+                <ponto X=32.335785 Z=-13.106907 />
+            </translacao>
+            
+            <grupo>
+                <rotacao angulo=-90 eixoX=1 />
+                <translacao Y=-5 />
+                <escala X=5 Y=5 Z=5 />
+                <cor R=0.3 G=0.3 B=1 />
+                <modelos>
+                    <modelo ficheiro="3d/teapot.3d" />
+                </modelos>
+            </grupo>
+        </grupo>
+    </grupo>
+</cena>

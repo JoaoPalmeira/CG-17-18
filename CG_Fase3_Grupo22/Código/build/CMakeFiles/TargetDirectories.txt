@@ -1,0 +1,3 @@
+/Users/joaopalmeira/Documents/UM/3ano/2 Semestre/CG/TRABALHO_17:18/CG_Fase3_Grupo22/Código/build/CMakeFiles/rebuild_cache.dir
+/Users/joaopalmeira/Documents/UM/3ano/2 Semestre/CG/TRABALHO_17:18/CG_Fase3_Grupo22/Código/build/CMakeFiles/edit_cache.dir
+/Users/joaopalmeira/Documents/UM/3ano/2 Semestre/CG/TRABALHO_17:18/CG_Fase3_Grupo22/Código/build/CMakeFiles/class4.dir

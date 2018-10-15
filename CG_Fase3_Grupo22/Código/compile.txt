@@ -1,0 +1,9 @@
+LINUX Ubuntu: g++ main.cpp tinyxml/tinyxml.cpp tinyxml/tinyxmlparser.cpp tinyxml/tinyxmlerror.cpp tinyxml/tinystr.cpp -lGL -lglut -lGLU  -o main
+
+
+
+/usr/local/lib/libGLEW.dylib
+
+
+
+MAC: g++ main.cpp tinyxml/tinyxml.cpp tinyxml/tinyxmlparser.cpp tinyxml/tinyxmlerror.cpp tinyxml/tinystr.cpp /usr/local/lib/libGLEW.dylib -framework OpenGL -framework GLUT -o main

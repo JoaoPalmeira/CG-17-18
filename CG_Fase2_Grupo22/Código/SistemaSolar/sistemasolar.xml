@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<figura>
+  <!-- sol -->
+    <grupo>
+        <specs angulo=7.25 eixoZ=1 escala_x=3 escala_y=3 escala_z=3  />
+        <cor R=1 G=1 B=1 />
+        <modelos>
+            <modelo ficheiro="./SistemaSolar/esferaprimitiva.3d" />
+        </modelos>
+    </grupo>
+
+
+    <!-- orbita mercurio -->
+    <grupo>
+        <specs angulo=7 eixoZ=1 X=7.2 />
+        <cor R=1.0 G=1.0 B=0.0 />
+        <orbita raioX=45 raioZ=44.25 />
+        
+        <!-- mercurio -->
+        <grupo>
+            <specs X=45 escala_x=0.05 escala_y=0.05 escala_z=0.05 />
+            <cor R=0.7 G=0.7 B=0.7 />
+            <modelos>
+                <modelo ficheiro="./SistemaSolar/esferaprimitiva.3d" />
+            </modelos>
+        </grupo>
+    </grupo>
+   
+
+    <!-- orbita venus -->
+    <grupo>
+        <specs angulo=10 eixoY=1 />
+        
+        <grupo>
+            <specs X=0.948 angulo=3.24 eixoZ=1 />
+            <cor R=1.0 G=1.0 B=0.0 />
+            <orbita raioX=55 raioZ=54.99 />
+            
+            <!-- venus -->
+            <grupo>
+                <specs X=55 angulo=177.36 eixoZ=1 escala_x=0.13 escala_y=0.13 escala_z=0.13 />
+                <cor R=1 G=0.5 B=0 />
+                <modelos>
+                    <modelo ficheiro="./SistemaSolar/esferaprimitiva.3d" />
+                </modelos>
+            </grupo>
+        </grupo>
+    </grupo>
+    
+
+    <!-- orbita terra -->
+    <grupo>
+        <specs angulo=20 eixoY=1 />
+        
+        <grupo>
+            <specs X=0.999 />
+            <cor R=0.3 G=0.3 B=1 />
+            <orbita raioX=60 raioZ=59.99 />
+        
+            <!-- terra -->
+            <grupo>
+                <specs X=60 angulo=23.45 eixoZ=1 escala_x=0.137 escala_y=0.137 escala_z=0.137 />
+                <cor R=0.3 G=0.3 B=1 />
+                <modelos>
+                    <modelo ficheiro="./SistemaSolar/esferaprimitiva.3d" />
+                </modelos>
+                
+                    <!-- orbita lua -->
+                    <grupo>
+                        <specs X=0.199 angulo=5.14 eixoZ=1 />
+                        <cor R=0.7 G=0.7 B=0.7 />
+                        <orbita raioX=10 raioZ=10 />
+                        
+                        <!-- lua -->
+                        <grupo>
+                            <specs X=10 angulo=6.68 eixoZ=1 escala_x=0.37 escala_y=0.37 escala_z=0.37 />
+                            <cor R=0.7 G=0.7 B=0.7 />
+                            <modelos>
+                                <modelo ficheiro="./SistemaSolar/esferaprimitiva.3d" />
+                            </modelos>
+                        </grupo>
+                    </grupo>
+            </grupo>
+        </grupo>
+    </grupo>
+
+<!-- orbita marte -->
+    <grupo>
+        <specs angulo=30 eixoY=1 />
+        
+        <grupo>
+            <specs X=5.58 angulo=1.51 eixoZ=1 />
+	    <cor R=1.0 G=1.0 B=0.0 />
+
+            <orbita raioX=70 raioZ=69.74 />
+            
+            <!-- marte -->
+            <grupo>
+                <specs X=70 angulo=25.19 eixoZ=1 escala_x=0.073 escala_y=0.073 escala_z=0.073 />
+                <cor R=1 G=0 B=0 />
+                <modelos>
+                    <modelo ficheiro="./SistemaSolar/esferaprimitiva.3d" />
+                </modelos>
+            </grupo>
+        </grupo>
+    </grupo>
+
+ <!-- orbita jupiter -->
+    <grupo>
+        <specs angulo=40 eixoY=1 />
+        
+        <grupo>
+            <specs X=4.9 angulo=1.18 eixoZ=1 />
+            <cor R=1.0 G=1.0 B=0.0 />
+            <orbita raioX=110 raioZ=100.88 />
+            
+            <!-- jupiter -->
+            <grupo>
+                <specs X=110 angulo=3.13 eixoZ=1 escala_x=1.54 escala_y=1.54 escala_z=1.54 />
+                <cor R=0.46 G=0.63 B=0.46 />
+                <modelos>
+                    <modelo ficheiro="./SistemaSolar/esferaprimitiva.3d" />
+                </modelos>
+                <!-- orbita europa -->
+                    <grupo>
+                        <specs X=0.199 angulo=5.14 eixoZ=1 />
+                        <cor R=0.0 G=0.0 B=1.0 />
+                        <orbita raioX=9 raioZ=9 />
+                        
+                        <!-- europa -->
+                        <grupo>
+                            <specs X=9 angulo=6.68 eixoZ=1 escala_x=0.04 escala_y=0.04 escala_z=0.04 />
+                            <cor R=1.0 G=0.0 B=0.0 />
+                            <modelos>
+                                <modelo ficheiro="./SistemaSolar/esferaprimitiva.3d" />
+                            </modelos>
+                        </grupo>
+                    </grupo>
+		 <!-- orbita io -->
+                 <grupo>
+                       <specs X=0.199 angulo=20 eixoZ=1 />
+                       <cor R=1.0 G=0.0 B=0.0 />
+                       <orbita raioX=5 raioZ=5.5 />
+
+                       <!-- io esta- pretinho -->
+                       <grupo>
+                           <specs X=5 angulo=7 eixoZ=1 escala_x=0.03 escala_y=0.03 escala_z=0.03 />
+                           <cor R=0.3 G=0.3 B=0.3 />
+                           <modelos>
+                               <modelo ficheiro="./SistemaSolar/esferaprimitiva.3d" />
+                           </modelos>
+                       </grupo>
+                   </grupo>
+		<!-- orbita Ganimedes -->
+                 <grupo>
+                       <specs X=0.199 angulo=45 eixoZ=1 />
+                       <cor R=0.0 G=1.0 B=0.3 />
+                       <orbita raioX=7 raioZ=7 />
+
+                       <!-- ganimedes esta - verde alface -->
+                       <grupo>
+                           <specs X=7 angulo=35  eixoZ=1 escala_x=0.06 escala_y=0.06 escala_z=0.06 />
+                           <cor R=0.0 G=0.0 B=1.0 />
+                           <modelos>
+                               <modelo ficheiro="./SistemaSolar/esferaprimitiva.3d" />
+                           </modelos>
+                       </grupo>
+                 </grupo>
+	       <!-- orbita Calisto -->
+                 <grupo>
+                       <specs X=1.0 angulo=20 eixoZ=1 />
+                       <cor R=1.0 G=1.0 B=0.0 />
+                       <orbita raioX=9 raioZ=9 />
+
+                       <!-- Calisto Está -->
+                       <grupo>
+                           <specs X=9 angulo=30 eixoZ=1 escala_x=0.04 escala_y=0.04 escala_z=0.04 />
+                           <cor R=1.0 G=0.7 B=0.7 />
+                           <modelos>
+                               <modelo ficheiro="./SistemaSolar/esferaprimitiva.3d" />
+                           </modelos>
+                       </grupo>
+                   </grupo>
+
+
+
+            </grupo>
+        </grupo>
+    </grupo>
+
+<!-- orbita saturno -->
+    <grupo>
+        <specs angulo=50 eixoY=1 />
+        
+        <grupo>
+            <specs X=7.48 angulo=2.29 eixoZ=1 />
+            <cor R=1.0 G=1.0 B=0.0 />
+            <orbita raioX=150 raioZ=149.8 />
+
+
+            
+            <!-- saturno -->
+            <grupo>
+                <specs X=150 angulo=26.73 eixoZ=1 escala_x=1.29 escala_y=1.29 escala_z=1.29 />
+                <cor R=0.55 G=0.27 B=0.08 />
+                <modelos>
+                    <modelo ficheiro="./SistemaSolar/esferaprimitiva.3d" />
+                </modelos>
+
+               
+            </grupo>
+        </grupo>
+    </grupo>
+
+     <!-- orbita urano -->
+    <grupo>
+        <specs angulo=60 eixoY=1 />
+    
+        <grupo>
+            <specs X=8.24 angulo=0.46 eixoZ=1 />
+            <cor R=1.0 G=1.0 B=0.0 />
+            <orbita raioX=180 raioZ=174.8 />
+            
+            <!-- urano -->
+            <grupo>
+                <specs X=180 angulo=97.77 eixoZ=1 escala_x=0.56 escala_y=0.56 escala_z=0.56 />
+                <cor R=0.6 G=0.6 B=1 />
+                <modelos>
+                    <modelo ficheiro="./SistemaSolar/esferaprimitiva.3d" />
+                </modelos>
+
+            </grupo>
+       </grupo>
+   </grupo>
+    
+   <!-- orbita neptuno -->
+   <grupo>
+       <specs angulo=70 eixoY=1 />
+       
+       <grupo>
+           <specs X=1.95 angulo=1.46 eixoZ=1 />
+           <cor R=1.0 G=1.0 B=0.0 />
+           <orbita raioX=200 raioZ=199.99 />
+           
+           <!-- neptuno -->
+           <grupo>
+               <specs X=200 angulo=28.32 eixoZ=1 escala_x=0.53 escala_y=0.53 escala_z=0.53 />
+               <cor R=0.4 G=0.4 B=1 />
+               <modelos>
+                   <modelo ficheiro="./SistemaSolar/esferaprimitiva.3d" />
+               </modelos>
+           </grupo>
+       </grupo>
+   </grupo>
+   
+
+
+</figura>

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/class4.dir/main.cpp.o  -o class4 -rdynamic -lGLEW -lGLU -lGL -lglut -lXmu -lXi 

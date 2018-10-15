@@ -1,0 +1,3 @@
+/Users/joaopalmeira/Desktop/CG-FASE1/CG-Fase1/build/CMakeFiles/rebuild_cache.dir
+/Users/joaopalmeira/Desktop/CG-FASE1/CG-Fase1/build/CMakeFiles/edit_cache.dir
+/Users/joaopalmeira/Desktop/CG-FASE1/CG-Fase1/build/CMakeFiles/class4.dir

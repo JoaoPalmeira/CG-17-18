@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cena>
+  <!-- sol -->
+    <grupo>
+        <rotacao angulo=7.25 eixoZ=1 />
+        <escala angulo=7.25 eixoZ=1 />
+        <grupo>
+            <rotacao tempo=126.9 eixoY=1 />
+            <escala X=21.9 Y=21.9 Z=21.9 />
+            <cor R=1 G=1 B=1 />
+            <modelos>
+                <modelo ficheiro="./SistemaSolar/sol.3d" />
+            </modelos>
+        </grupo>
+    </grupo>
+    <!-- orbita mercurio -->
+    <grupo>
+        <rotacao angulo=7 eixoZ=1 />
+        <translacao X=7.2 />
+        <cor R=0 G=0.5 B=0 />
+        <orbita raioX=35 raioZ=34.25 nControl=16 />
+        
+        <!-- mercurio -->
+        <grupo>
+            <translacao tempo=4.82 >
+                <ponto X=35.000000 Z=0.000000 />
+                <ponto X=32.335785 Z=13.106908 />
+                <ponto X=24.748737 Z=24.218409 />
+                <ponto X=13.393920 Z=31.642874 />
+                <ponto X=-0.000002 Z=34.250000 />
+                <ponto X=-13.393923 Z=31.642874 />
+                <ponto X=-24.748737 Z=24.218407 />
+                <ponto X=-32.335785 Z=13.106902 />
+                <ponto X=-35.000000 Z=-0.000003 />
+                <ponto X=-32.335785 Z=-13.106908 />
+                <ponto X=-24.748734 Z=-24.218410 />
+                <ponto X=-13.393909 Z=-31.642878 />
+                <ponto X=0.000000 Z=-34.250000 />
+                <ponto X=13.393926 Z=-31.642872 />
+                <ponto X=24.748745 Z=-24.218399 />
+                <ponto X=32.335785 Z=-13.106907 />
+            </translacao>
+            <rotacao tempo=12.69 eixoY=1 />
+            <escala X=0.383 Y=0.383 Z=0.383 />
+            <cor R=0.7 G=0.7 B=0.7 />
+            <modelos>
+                <modelo ficheiro="./SistemaSolar/mercurio.3d" />
+            </modelos>
+        </grupo>
+    </grupo>
+
+    <!-- orbita venus -->
+    <grupo>
+            <translacao X=0.948 />
+            <rotacao angulo=3.24 eixoZ=1 />
+            <cor R=0 G=0.5 B=0 />
+            <orbita raioX=45 raioZ=44.99 nControl=16 />
+            
+            <!-- venus -->
+            <grupo>
+            <translacao tempo=12.312 >
+                <ponto X=45.000000 Z=0.000000 />
+                <ponto X=41.574577 Z=17.216928 />
+                <ponto X=31.819805 Z=31.812737 />
+                <ponto X=17.220755 Z=41.565342 />
+                <ponto X=-0.000002 Z=44.990002 />
+                <ponto X=-17.220758 Z=41.565342 />
+                <ponto X=-31.819805 Z=31.812735 />
+                <ponto X=-41.574581 Z=17.216921 />
+                <ponto X=-45.000000 Z=-0.000004 />
+                <ponto X=-41.574577 Z=-17.216928 />
+                <ponto X=-31.819799 Z=-31.812740 />
+                <ponto X=-17.220741 Z=-41.565346 />
+                <ponto X=0.000001 Z=-44.990002 />
+                <ponto X=17.220762 Z=-41.565338 />
+                <ponto X=31.819817 Z=-31.812725 />
+                <ponto X=41.574577 Z=-17.216928 />
+            </translacao>
+                <rotacao angulo=177.36 eixoZ=1 />
+                <grupo>
+                    <rotacao tempo=12.15 eixoY=1 />
+                    <escala X=0.95 Y=0.95 Z=0.95 />
+                    <cor R=1 G=0.5 B=0 />
+                    <modelos>
+                        <modelo ficheiro="./SistemaSolar/venus.3d" />
+                    </modelos>
+            </grupo>
+        </grupo>
+    </grupo>
+    
+    <!-- orbita terra -->
+        
+        <grupo>
+            <translacao X=0.999 />
+            <cor R=0.3 G=0.3 B=1 />
+            <orbita raioX=50 raioZ=49.99 nControl=16/>
+        
+            <!-- terra -->
+            <grupo>
+                <translacao tempo=20 >
+                    <ponto X=50.000000 Z=0.000000 />
+                    <ponto X=46.193977 Z=19.130346 />
+                    <ponto X=35.355339 Z=35.348270 />
+                    <ponto X=19.134171 Z=46.184738 />
+                    <ponto X=-0.000002 Z=49.990002 />
+                    <ponto X=-19.134176 Z=46.184738 />
+                    <ponto X=-35.355339 Z=35.348270 />
+                    <ponto X=-46.193981 Z=19.130339 />
+                    <ponto X=-50.000000 Z=-0.000004 />
+                    <ponto X=-46.193977 Z=-19.130346 />
+                    <ponto X=-35.355331 Z=-35.348274 />
+                    <ponto X=-19.134157 Z=-46.184746 />
+                    <ponto X=0.000001 Z=-49.990002 />
+                    <ponto X=19.134180 Z=-46.184734 />
+                    <ponto X=35.355350 Z=-35.348259 />
+                    <ponto X=46.193977 Z=-19.130344 />
+                </translacao>
+                <rotacao angulo=23.45 eixoZ=1 />
+                <grupo>
+                    <rotacao tempo=5 eixoY=1 />
+                    <cor R=0.3 G=0.3 B=1 />
+                    <modelos>
+                        <modelo ficheiro="./SistemaSolar/terra.3d" />
+                    </modelos>
+                </grupo>
+                    <!-- orbita lua -->
+                    <grupo>
+                        <translacao X=0.199 />
+                        <rotacao angulo=5.14 eixoZ=1 />
+                        <cor R=0.7 G=0.7 B=0.7 />
+                        <orbita raioX=2 raioZ=1.99 nControl=16/>
+                        
+                        <!-- lua -->
+                        <grupo>
+                            <translacao tempo=1.53 >
+                                <ponto X=2.000000 Z=0.000000 />
+                                <ponto X=1.847759 Z=0.761540 />
+                                <ponto X=1.414214 Z=1.407143 />
+                                <ponto X=0.765367 Z=1.838520 />
+                                <ponto X=-0.000000 Z=1.990000 />
+                                <ponto X=-0.765367 Z=1.838520 />
+                                <ponto X=-1.414214 Z=1.407143 />
+                                <ponto X=-1.847759 Z=0.761540 />
+                                <ponto X=-2.000000 Z=-0.000000 />
+                                <ponto X=-1.847759 Z=-0.761540 />
+                                <ponto X=-1.414213 Z=-1.407143 />
+                                <ponto X=-0.765366 Z=-1.838521 />
+                                <ponto X=0.000000 Z=-1.990000 />
+                                <ponto X=0.765367 Z=-1.838520 />
+                                <ponto X=1.414214 Z=-1.407142 />
+                                <ponto X=1.847759 Z=-0.761540 />
+                            </translacao>
+                            <rotacao angulo=6.68 eixoZ=1 />
+                            <grupo>
+                                <rotacao tempo=1.53 eixoY=1 />
+                                <escala X=0.273 Y=0.273 Z=0.273 />
+                                <cor R=0.7 G=0.7 B=0.7 />
+                                <modelos>
+                                    <modelo ficheiro="./SistemaSolar/lua.3d" />
+                                </modelos>
+                            </grupo>
+                        </grupo>
+                    </grupo>
+                </grupo>
+        </grupo>
+
+    <!-- orbita marte -->
+        <grupo>
+            <translacao X=5.58 />
+            <rotacao angulo=1.51 eixoZ=1 />
+            <cor R=0 G=0.5 B=0 />
+            <orbita raioX=60 raioZ=59.74 nControl=16/>
+            
+            <!-- marte -->
+            <grupo>
+                <translacao tempo=37.643 >
+                    <ponto X=60.000000 Z=0.000000 />
+                    <ponto X=55.432774 Z=22.861509 />
+                    <ponto X=42.426407 Z=42.242561 />
+                    <ponto X=22.961006 Z=55.192566 />
+                    <ponto X=-0.000003 Z=59.740002 />
+                    <ponto X=-22.961010 Z=55.192562 />
+                    <ponto X=-42.426407 Z=42.242561 />
+                    <ponto X=-55.432777 Z=22.861500 />
+                    <ponto X=-60.000000 Z=-0.000005 />
+                    <ponto X=-55.432774 Z=-22.861509 />
+                    <ponto X=-42.426399 Z=-42.242569 />
+                    <ponto X=-22.960987 Z=-55.192574 />
+                    <ponto X=0.000001 Z=-59.740002 />
+                    <ponto X=22.961016 Z=-55.192562 />
+                    <ponto X=42.426422 Z=-42.242546 />
+                    <ponto X=55.432774 Z=-22.861507 />
+                </translacao>
+                <rotacao angulo=25.19 eixoZ=1 />
+                <grupo>
+                    <rotacao tempo=5.125 eixoY=1 />
+                    <escala X=0.532 Y=0.532 Z=0.532 />
+                    <cor R=1 G=0 B=0 />
+                <modelos>
+                    <modelo ficheiro="./SistemaSolar/marte.3d" />
+                </modelos>
+            </grupo>
+        </grupo>
+    </grupo>
+      <!-- orbita cometa -->
+      
+    <grupo>
+        <rotacao angulo=170 eixoY=1 />
+        
+        <grupo>
+            <translacao X=60.72 />
+            <rotacao angulo=168.24 eixoY=1 />
+            <cor R=1 G=0.3 B=0.3 />
+            <orbita raioX=90 raioZ=50.41 nControl=16/>
+        
+        <!-- teapot -->
+            <grupo>
+                <translacao tempo=10 >
+                    <ponto X=90.500000 Z=0.000000 />
+                    <ponto X=80.333333 Z=18.291072/>
+                    <ponto X=60.230769 Z=34.645252 />
+                    <ponto X=38.727666 Z=45.572861 />
+
+                    <ponto X=-0.000007 Z=52.410000 />
+                    <ponto X=-47.727666 Z=45.572861 />
+                    <ponto X=-68.230769 Z=34.645252 />
+                    <ponto X=-86.333333 Z=18.291072 />
+
+                    <ponto X=-91.000004 Z=0.000009 />
+                    <ponto X=-84.333333 Z=-19.291072 />
+                    <ponto X=-61.230769 Z=-36.645252 />
+                    <ponto X=-28.727666 Z=-46.572861 />
+
+                    <ponto X=-0.000004 Z=-52.410004 />
+                    <ponto X=45.727666 Z=-45.572861 />
+                    <ponto X=65.230769 Z=-34.645252 />
+                    <ponto X=82.333333 Z=-18.291072 />
+                </translacao>
+              
+                <grupo>
+                    <translacao X=1.5 />
+                    <rotacao tempo=10 eixoY=1 />
+                    <cor R=0.7 G=0.7 B=1 />
+                    <modelos>
+                        <modelo ficheiro="./SistemaSolar/teapot.3d" />
+                    </modelos>
+            </grupo>
+        </grupo>
+    </grupo>
+</grupo>
+    <!-- orbita jupiter -->
+        <grupo>
+            <translacao X=4.9 />
+            <!--<rotacao angulo=1.18 eixoZ=1 />-->
+            <cor R=0 G=0.5 B=0 />
+            <orbita raioX=100 raioZ=99.88 nControl=16 />
+            
+            <!-- jupiter -->
+            <grupo>
+                <translacao tempo=6.49 >
+                    <ponto X=100.000000 Z=0.000000 />
+                    <ponto X=92.387955 Z=38.222420 />
+                    <ponto X=70.710678 Z=70.625824 />
+                    <ponto X=38.268341 Z=92.277084 />
+                    <ponto X=-0.000004 Z=99.879997 />
+                    <ponto X=-38.268353 Z=92.277084 />
+                    <ponto X=-70.710678 Z=70.625824 />
+                    <ponto X=-92.387962 Z=38.222404 />
+                    <ponto X=-100.000000 Z=-0.000009 />
+                    <ponto X=-92.387955 Z=-38.222420 />
+                    <ponto X=-70.710663 Z=-70.625832 />
+                    <ponto X=-38.268314 Z=-92.277100 />
+                    <ponto X=0.000001 Z=-99.879997 />
+                    <ponto X=38.268360 Z=-92.277077 />
+                    <ponto X=70.710701 Z=-70.625801 />
+                    <ponto X=92.387955 Z=-38.222420 />
+                </translacao>
+                <!--<rotacao angulo=3.13 eixoZ=1 />-->
+                <grupo>
+                    <rotacao tempo=1.875 eixoY=1 />
+                    <escala X=11.21 Y=11.21 Z=11.21 />
+                    <cor R=0.46 G=0.63 B=0.46 />
+                    <modelos>
+                        <modelo ficheiro="./SistemaSolar/jupiter.3d" />
+                    </modelos>
+                
+                <!-- orbita europa -->
+                
+                    <grupo>
+                      <!--  <translacao X=0.199 /> 
+                       <!-- <rotacao angulo=5.14 eixoZ=1 />-->
+                        <cor R=0.7 G=0.7 B=0.7 />
+                        <orbita raioX=1.5 raioZ=1.49 nControl=16/>
+                        
+                        <!-- europa -->
+                        
+                        <grupo>
+                            <translacao tempo=5 >
+                                <ponto X=1.500000 Z=0.000000 />
+                                <ponto X=1.388888 Z=0.570203 />
+                                <ponto X=1.153846 Z=1.053589 />
+                                <ponto X=0.812127 Z=1.376697/>
+                                <ponto X=-0.000000 Z=1.490000 />
+                                <ponto X=-0.812127 Z=1.376697 />
+                                <ponto X=-1.153846 Z=1.053589 />
+                                <ponto X=-1.388888 Z=0.570203 />
+                                <ponto X=-1.500000 Z=-0.000000 />
+                                <ponto X=-1.388888 Z=-0.570203 />
+                                <ponto X=-1.153846 Z=-1.053589 />
+                                <ponto X=-0.812127 Z=-1.376697 />
+                                <ponto X=0.000000 Z=-1.490000 />
+                                <ponto X=0.812127 Z=-1.376697 />
+                                <ponto X=1.153846 Z=-1.053589 />
+                                <ponto X=1.388888 Z=-0.570203 />
+                            </translacao>
+                            <!--<rotacao angulo=6.68 eixoZ=1 />-->
+                            <grupo>
+                                <rotacao tempo=10 eixoY=1 />
+                                <escala X=0.145 Y=0.145 Z=0.145 />
+                                <cor R=0.7 G=0.7 B=0.7 />
+                                <modelos>
+                                    <modelo ficheiro="./SistemaSolar/europa.3d" />
+                                </modelos>
+                        </grupo>
+                    </grupo>
+                </grupo>
+            </grupo>
+        </grupo>
+     </grupo> 
+    <!-- orbita saturno -->
+        <grupo>
+            <translacao X=7.48 />
+            <rotacao angulo=2.29 eixoZ=1 />
+            <cor R=0 G=0.5 B=0 />
+            <orbita raioX=140 raioZ=139.8 nControl=16 />
+
+
+            
+            <!-- saturno -->
+            <grupo>
+                <translacao tempo=16.14 >
+                    <ponto X=140.000000 Z=0.000000 />
+                    <ponto X=129.343140 Z=53.499146 />
+                    <ponto X=98.994949 Z=98.853531 />
+                    <ponto X=53.575680 Z=129.158356 />
+                    <ponto X=-0.000006 Z=139.800003 />
+                    <ponto X=-53.575691 Z=129.158356 />
+                    <ponto X=-98.994949 Z=98.853531 />
+                    <ponto X=-129.343140 Z=53.499123 />
+                    <ponto X=-140.000000 Z=-0.000012 />
+                    <ponto X=-129.343140 Z=-53.499146 />
+                    <ponto X=-98.994934 Z=-98.853546 />
+                    <ponto X=-53.575638 Z=-129.158386 />
+                    <ponto X=0.000002 Z=-139.800003 />
+                    <ponto X=53.575703 Z=-129.158356 />
+                    <ponto X=98.994980 Z=-98.853500 />
+                    <ponto X=129.343140 Z=-53.499142 />
+                </translacao>
+                <rotacao angulo=26.73 eixoZ=1 />
+                <grupo>
+                    <rotacao tempo=2.08 eixoY=1 />
+                    <escala X=9.45 Y=9.45 Z=9.45 />
+                    <cor R=0.55 G=0.27 B=0.08 />
+                    <modelos>
+                        <modelo ficheiro="./SistemaSolar/saturno.3d" />
+                    </modelos>
+                <!-- anel saturno -->
+                
+                    <grupo>
+                       <!-- <translacao X=0.199 />-->
+                        <rotacao angulo=5.14 eixoZ=1 />
+                        <cor R=0.7 G=0.7 B=0.7 />
+                        <orbita raioX=1.5 raioZ=1.49 nControl=16 />
+                    </grupo>
+                    <grupo>
+                        <!--<translacao X=0.199 />-->
+                        <rotacao angulo=5.14 eixoZ=1 /> 
+                        <cor R=1 G=0.8 B=0.6 />
+                        <orbita raioX=1.6 raioZ=1.59 nControl=16 />
+                    </grupo>
+            
+            </grupo>
+        </grupo>
+    </grupo>
+     <!-- orbita urano -->
+        <grupo>
+            <translacao X=8.24 />
+            <rotacao angulo=0.46 eixoZ=1 />
+            <cor R=0 G=0.5 B=0 />
+            <orbita raioX=170 raioZ=164.8 nControl=16/>
+            
+            <!-- urano -->
+            <grupo>
+                <translacao tempo=23.03 >
+                    <ponto X=170.000000 Z=0.000000 />
+                    <ponto X=157.059525 Z=63.066231 />
+                    <ponto X=120.208153 Z=116.531204 />
+                    <ponto X=65.056183 Z=152.255356 />
+                    <ponto X=-0.000007 Z=164.800003 />
+                    <ponto X=-65.056198 Z=152.255341 />
+                    <ponto X=-120.208153 Z=116.531197 />
+                    <ponto X=-157.059525 Z=63.066204 />
+                    <ponto X=-170.000000 Z=-0.000014 />
+                    <ponto X=-157.059525 Z=-63.066231 />
+                    <ponto X=-120.208130 Z=-116.531219 />
+                    <ponto X=-65.056129 Z=-152.255371 />
+                    <ponto X=0.000002 Z=-164.800003 />
+                    <ponto X=65.056213 Z=-152.255341 />
+                    <ponto X=120.208191 Z=-116.531158 />
+                    <ponto X=157.059525 Z=-63.066227 />
+                </translacao>
+                <rotacao angulo=97.77 eixoZ=1 />
+                <grupo>
+                    <rotacao tempo=2.71 eixoY=1 />
+                    <escala X=4.01 Y=4.01 Z=4.01 />
+                    <cor R=0.6 G=0.6 B=1 />
+                    <modelos>
+                        <modelo ficheiro="./SistemaSolar/urano.3d" />
+                    </modelos>
+
+            </grupo>
+       </grupo>
+   </grupo>
+    
+   <!-- orbita neptuno -->
+       <grupo>
+           <translacao X=1.95 />
+           <rotacao angulo=1.46 eixoZ=1 />
+           <cor R=0 G=0.5 B=0 />
+           <orbita raioX=190 raioZ=189.99 nControl=16/>
+           
+           <!-- neptuno -->
+           <grupo>
+               <translacao tempo=9.03 >
+                    <ponto X=190.000000 Z=0.000000 />
+                    <ponto X=175.537109 Z=72.706032 />
+                    <ponto X=134.350281 Z=134.343231 />
+                    <ponto X=72.709854 Z=175.527878 />
+                    <ponto X=-0.000008 Z=189.990005 />
+                    <ponto X=-72.709869 Z=175.527878 />
+                    <ponto X=-134.350296 Z=134.343216 />
+                    <ponto X=-175.537125 Z=72.706001 />
+                    <ponto X=-190.000000 Z=-0.000017 />
+                    <ponto X=-175.537109 Z=-72.706032 />
+                    <ponto X=-134.350266 Z=-134.343246 />
+                    <ponto X=-72.709793 Z=-175.527908 />
+                    <ponto X=0.000002 Z=-189.990005 />
+                    <ponto X=72.709885 Z=-175.527863 />
+                    <ponto X=134.350327 Z=-134.343170 />
+                    <ponto X=175.537109 Z=-72.706024 />
+                </translacao>
+               <rotacao angulo=28.32 eixoZ=1 />
+               <grupo>
+                <rotacao tempo=3.125 eixoY=1 />
+                <escala X=3.87 Y=3.87 Z=3.87 />
+                <cor R=0.4 G=0.4 B=1 />
+                <modelos>
+                   <modelo ficheiro="./SistemaSolar/neptuno.3d" />
+                </modelos>
+           </grupo>
+       </grupo>
+   </grupo>
+   
+   
+
+</cena>
