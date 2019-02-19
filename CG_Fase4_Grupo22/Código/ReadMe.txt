@@ -13,7 +13,7 @@ Main:
 ./main XML/“nome ficheiro”
 
 Elementos : 
-Diogo  Meira Neves
-Marcos Morais Luis
-Pedro Miguel Lopes Pereira
-Nelson Arieira Parente
+Ana Paula Carvalho
+Bruno Arieira
+João Palmeira
+Pedro Almeida
